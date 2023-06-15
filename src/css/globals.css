@@ -309,16 +309,23 @@ body {
 @media only screen and (max-width: 578px) {
   #modal {
     position: fixed;
-    top: 70%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translatY(-50%);
     width: 100%;
+    bottom: 0;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  #modal .container {
+    padding-bottom: 10px;
   }
   #modal .container ul li {
-    font-size: 20px;
+    font-size: 21px;
   }
   #modal .container ul li:last-child {
-    font-size: 23px;
+    font-size: 24px;
   }
   #modal .container .img img {
     height: 300px;
