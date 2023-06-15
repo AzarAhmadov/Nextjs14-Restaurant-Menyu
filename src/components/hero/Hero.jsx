@@ -1,4 +1,3 @@
-'use client'
 import { GraphQLClient, gql } from 'graphql-request';
 
 const graphcms = new GraphQLClient('https://api-us-west-2.hygraph.com/v2/cliw4abwt0pza01uh0kc9913j/master');
@@ -27,6 +26,7 @@ const getDataRestoran = async () => {
 
 
 const Hero = async () => {
+    
     const data = await getDataRestoran();
 
     return (
