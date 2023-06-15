@@ -320,6 +320,7 @@ body {
   }
   #modal .container {
     padding-bottom: 10px;
+    width: 100%;
   }
   #modal .container ul li {
     font-size: 21px;
