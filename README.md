@@ -1,4 +1,4 @@
-### Eestaurant menu
+### Restaurant Menu 
 A project where you can create the category you want and also place special products in that category.
 
 ## Built with
