@@ -1,6 +1,9 @@
 ### Restaurant Menu 
 A project where you can create the category you want and also place special products in that category.
 
+## Demo
+Live demo : https://menuaz.vercel.app/
+
 ## Built with
 - Next.js
 - Hygraph (CMS)
